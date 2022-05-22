@@ -1,6 +1,4 @@
-//
-// Created by enigma on 22.05.22.
-//
+//Copyright by Enigma
 
 #ifndef INCLUDE_SAFE_QUEUE_HPP_
 #define INCLUDE_SAFE_QUEUE_HPP_

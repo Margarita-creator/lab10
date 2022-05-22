@@ -1,6 +1,5 @@
-//
-// Created by enigma on 22.05.22.
-//
+//Copyright by Enigma
+
 #ifndef INCLUDE_LOGGER_HPP_
 #define INCLUDE_LOGGER_HPP_
 
@@ -28,8 +27,10 @@ BOOST_LOG_ATTRIBUTE_KEYWORD(timestamp, "TimeStamp",
                             boost::posix_time::ptime)
 BOOST_LOG_ATTRIBUTE_KEYWORD(severity, "Severity",
                             boost::log::trivial::severity_level)
-BOOST_LOG_ATTRIBUTE_KEYWORD(thread_id, "ThreadID",
-                            boost::log::attributes::current_thread_id::value_type)
+BOOST_LOG_ATTRIBUTE_KEYWORD(thread_id,
+                            "ThreadID",
+                            boost::log::attributes::
+                                current_thread_id::value_type)
 
 class logger{
  public:
@@ -39,7 +40,10 @@ class logger{
                                       << std::setw(7) << std::setfill('0')
                                       << line_id << std::setfill(' ') << " | "
                                       << "T." << thread_id << " | "
-                                      << expr::format_date_time(timestamp, "%Y-%m-%d, %H:%M:%S.%f") << " "
+                                      << expr::format_date_time(timestamp,
+                                                                "%Y-%m-%d, "
+                                                                "%H:%M:%S.%f")
+                                      << " "
                                       << "[" << severity << "]"
                                       << " - " << expr::smessage;
     boost::shared_ptr< sinks::text_file_backend > backend =
@@ -70,3 +74,4 @@ class logger{
 
 
 #endif  // INCLUDE_LOGGER_HPP_
+

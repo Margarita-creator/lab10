@@ -1,6 +1,4 @@
-//
-// Created by enigma on 22.05.22.
-//
+//Copyright by Enigma
 
 #ifndef INCLUDE_DATA_PIECE_HPP_
 #define INCLUDE_DATA_PIECE_HPP_
