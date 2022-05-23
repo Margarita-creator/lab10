@@ -45,7 +45,7 @@ add_library(${PROJECT_NAME} STATIC
         sources/Dbhasher.cpp include/DBhasher.hpp
         include/safe_queue.hpp
         include/picosha2.h
-        include/ThreadPool.h include/data_piece.hpp include/logger.hpp include/picosha2.h include/ThreadPool.h)
+        include/ThreadPool.h include/data_piece.hpp include/logger.hpp include/picosha2.h)
 
 add_executable(dbcs
         ${CMAKE_CURRENT_SOURCE_DIR}/demo/main.cpp
