@@ -1,4 +1,4 @@
-//Copyright by Enigma
+//Copyright by Margarita
 
 #ifndef INCLUDE_LOGGER_HPP_
 #define INCLUDE_LOGGER_HPP_

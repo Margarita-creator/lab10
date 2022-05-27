@@ -1,4 +1,4 @@
-// Copyright by Enigma
+//Copyright by Margarita
 
 #include "DBhasher.hpp"
 DBhasher::DBhasher(std::string _kDBpath, std::string _new_path,

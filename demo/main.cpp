@@ -1,4 +1,5 @@
-// Copyright by Enigma
+//Copyright by Margarita
+
 #include "iostream"
 #include <string>
 #include "DBhasher.hpp"

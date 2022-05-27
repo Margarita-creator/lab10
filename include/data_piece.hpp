@@ -1,4 +1,4 @@
-//Copyright by Enigma
+//Copyright by Margarita
 
 #ifndef INCLUDE_DATA_PIECE_HPP_
 #define INCLUDE_DATA_PIECE_HPP_

@@ -1,4 +1,4 @@
-//Copyright by Enigma
+//Copyright by Margarita
 
 #ifndef INCLUDE_SAFE_QUEUE_HPP_
 #define INCLUDE_SAFE_QUEUE_HPP_
